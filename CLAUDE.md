@@ -4,12 +4,12 @@
 
 Ecto-backed session persistence for the Elixir ADK (`adk_ex`). Separate hex package providing database-backed `ADK.Session.Service` implementation. Supports SQLite3 (dev/test) and PostgreSQL (prod).
 
-**Parent package**: `adk_ex` at `/workspace/adk_ex/` (github.com/JohnSmall/adk_ex)
+**Parent package**: `adk_ex` at `/workspace/elixir_code/adk_ex/` (github.com/JohnSmall/adk_ex)
 
 ## Quick Start
 
 ```bash
-cd /workspace/adk_ex_ecto
+cd /workspace/elixir_code/adk_ex_ecto
 mix deps.get
 mix test          # 21 tests
 mix credo         # Static analysis
@@ -81,6 +81,6 @@ Tests use SQLite3 in-memory database:
 
 ## Reference
 
-- **Go ADK database sessions**: `/workspace/adk-go/session/database/service.go`
-- **Go ADK storage types**: `/workspace/adk-go/session/database/storage_types.go`
-- **Parent ADK package**: `/workspace/adk_ex/` (see `/workspace/adk_ex/CLAUDE.md`)
+- **Go ADK database sessions**: `/workspace/samples/adk-go/session/database/service.go`
+- **Go ADK storage types**: `/workspace/samples/adk-go/session/database/storage_types.go`
+- **Parent ADK package**: `/workspace/elixir_code/adk_ex/` (see `/workspace/elixir_code/adk_ex/CLAUDE.md`)

@@ -17,7 +17,7 @@
 
 ### 1. Project Setup
 
-- [x] **1.1** Create Mix project at `/workspace/adk_ex_ecto/`
+- [x] **1.1** Create Mix project at `/workspace/elixir_code/adk_ex_ecto/`
   - Configured mix.exs with deps: adk_ex (path), ecto_sql, ecto_sqlite3, postgrex (optional), jason
   - Added dialyxir and credo for dev/test
   - Set up `elixirc_paths` for test support modules
@@ -93,7 +93,7 @@
 ## Verification
 
 ```bash
-cd /workspace/adk_ex_ecto
+cd /workspace/elixir_code/adk_ex_ecto
 mix test          # 21 tests, 0 failures
 mix credo         # No issues
 mix dialyzer      # 0 errors
@@ -121,7 +121,7 @@ mix dialyzer      # 0 errors
 
 | Component | Go Source |
 |-----------|----------|
-| Database session service | `/workspace/adk-go/session/database/service.go` |
-| Storage types | `/workspace/adk-go/session/database/storage_types.go` |
-| Migration | `/workspace/adk-go/session/database/migrate.go` |
-| Session interface | `/workspace/adk-go/session/service.go` |
+| Database session service | `/workspace/samples/adk-go/session/database/service.go` |
+| Storage types | `/workspace/samples/adk-go/session/database/storage_types.go` |
+| Migration | `/workspace/samples/adk-go/session/database/migrate.go` |
+| Session interface | `/workspace/samples/adk-go/session/service.go` |

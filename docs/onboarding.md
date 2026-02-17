@@ -29,7 +29,7 @@ adk_ex (core)                          adk_ex_ecto (this package)
 ## 2. Project Structure
 
 ```
-/workspace/adk_ex_ecto/
+/workspace/elixir_code/adk_ex_ecto/
 ├── mix.exs                             # Deps: adk_ex, ecto_sql, ecto_sqlite3, postgrex
 ├── config/
 │   ├── config.exs                      # Imports test.exs in test env
@@ -66,13 +66,13 @@ adk_ex (core)                          adk_ex_ecto (this package)
 
 | Resource | Location |
 |----------|----------|
-| **This package** | `/workspace/adk_ex_ecto/` |
-| **Parent ADK package** | `/workspace/adk_ex/` |
-| **Parent CLAUDE.md** | `/workspace/adk_ex/CLAUDE.md` |
-| **Go ADK DB sessions** | `/workspace/adk-go/session/database/` |
-| **ADK Session.Service behaviour** | `/workspace/adk_ex/lib/adk/session/service.ex` |
-| **ADK Session.State utilities** | `/workspace/adk_ex/lib/adk/session/state.ex` |
-| **ADK InMemory (reference impl)** | `/workspace/adk_ex/lib/adk/session/in_memory.ex` |
+| **This package** | `/workspace/elixir_code/adk_ex_ecto/` |
+| **Parent ADK package** | `/workspace/elixir_code/adk_ex/` |
+| **Parent CLAUDE.md** | `/workspace/elixir_code/adk_ex/CLAUDE.md` |
+| **Go ADK DB sessions** | `/workspace/samples/adk-go/session/database/` |
+| **ADK Session.Service behaviour** | `/workspace/elixir_code/adk_ex/lib/adk/session/service.ex` |
+| **ADK Session.State utilities** | `/workspace/elixir_code/adk_ex/lib/adk/session/state.ex` |
+| **ADK InMemory (reference impl)** | `/workspace/elixir_code/adk_ex/lib/adk/session/in_memory.ex` |
 
 ---
 
@@ -132,7 +132,7 @@ Two operations use `Repo.transaction/1`:
 ### Running Tests
 
 ```bash
-cd /workspace/adk_ex_ecto
+cd /workspace/elixir_code/adk_ex_ecto
 mix deps.get                 # First time only
 mix test                     # 21 tests
 mix credo                    # Static analysis

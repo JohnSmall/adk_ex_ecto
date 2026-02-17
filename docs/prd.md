@@ -32,10 +32,10 @@ The core `adk_ex` package is transport-agnostic and dependency-light — it has 
 
 ### 2.3 Reference Materials
 
-- **Go ADK database sessions**: `/workspace/adk-go/session/database/service.go`
-- **Go ADK storage types**: `/workspace/adk-go/session/database/storage_types.go`
-- **Go ADK migration**: `/workspace/adk-go/session/database/migrate.go`
-- **Parent package docs**: `/workspace/adk_ex/docs/`
+- **Go ADK database sessions**: `/workspace/samples/adk-go/session/database/service.go`
+- **Go ADK storage types**: `/workspace/samples/adk-go/session/database/storage_types.go`
+- **Go ADK migration**: `/workspace/samples/adk-go/session/database/migrate.go`
+- **Parent package docs**: `/workspace/elixir_code/adk_ex/docs/`
 
 ---
 
