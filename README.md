@@ -12,7 +12,7 @@ Add `adk_ex_ecto` to your dependencies:
 def deps do
   [
     {:adk_ex, "~> 0.1"},
-    {:adk_ex_ecto, "~> 0.1"},
+    {:adk_ex_ecto, "~> 1.0"},
     {:ecto_sqlite3, "~> 0.17"},   # or {:postgrex, "~> 0.19"} for PostgreSQL
   ]
 end
