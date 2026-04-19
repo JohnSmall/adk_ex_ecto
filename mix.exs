@@ -1,7 +1,7 @@
 defmodule ADKExEcto.MixProject do
   use Mix.Project
 
-  @version "1.0.0"
+  @version "1.0.1"
   @source_url "https://github.com/JohnSmall/adk_ex_ecto"
 
   def project do
@@ -58,7 +58,7 @@ defmodule ADKExEcto.MixProject do
         "Changelog" => "#{@source_url}/blob/main/CHANGELOG.md",
         "ADK Ex" => "https://hex.pm/packages/adk_ex"
       },
-      files: ~w(lib .formatter.exs mix.exs README.md LICENSE CHANGELOG.md)
+      files: ~w(lib .formatter.exs mix.exs README.md LICENSE CHANGELOG.md usage-rules.md)
     ]
   end
 
@@ -68,7 +68,8 @@ defmodule ADKExEcto.MixProject do
       source_ref: "v#{@version}",
       extras: [
         "README.md",
-        "CHANGELOG.md"
+        "CHANGELOG.md",
+        {"usage-rules.md", title: "LLM Usage Rules"}
       ],
       groups_for_modules: [
         Core: [
